@@ -9,7 +9,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
-    color: #fdb100;
+    color: #ffbb00;
 }
 
 /* Кнопки */
@@ -17,8 +17,8 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
-    color: #fdb100;
-    border: 1px solid #fdb100;
+    color: #000000;
+    border: 1px solid #000000;
     border-radius: 16px;
     background-color: transparent;
     cursor: pointer;
