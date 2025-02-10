@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Monsterrat;
 }
 
 .container {
@@ -12,13 +12,14 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background-color: rgb(217, 255, 208);
 }
 
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #d7e9ce;
+    background-color:#6bf394;
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -27,64 +28,40 @@
 .header .logo {
     font-size: 24px;
     font-weight: bold;
+    color: rgb(235, 30, 208);
 }
 
 .header .subtitle {
-    font-size: 14px;
+    font-size: 22px;
     margin-top: 10px;
-}
-
-.header input[type="text"] {
-    margin: 10px;
-    padding: 5px;
-    width: 150px;
-}
-
-.header .about,
-.header .login {
-    background-color: #d9e9cc;
-    border: 1px solid #c7e49e;
-    padding: 5px 10px;
-    margin: 5px;
+    color: #333634;
 }
 
 .sidebar {
     position: absolute;
     top: 100px;
     left: 0;
-    width: 200px;
-    background-color: #a2ee95;
+    width: 300px;
+    background-color: #b1ffa3;
     padding: 20px;
     text-align: left;
 }
 
-.sidebar h3 {
-    font-size: 18px;
+.sidebar h1 {
     margin-bottom: 10px;
-}
-
-.sidebar ul {
-    list-style: none;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
-.main-content {
-    margin-left: 220px;
-    width: 80%;
+    color: #ce2d2d;
 }
 
 .theory-section,
 .test-prep,
 .independent-work,
 .teacher-option {
-    background-color: #b4e48e;
+    background-color:#6bf394;
     margin: 10px 0;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    color:#302f30;
 }
 
 .theory-section h2,
@@ -92,7 +69,7 @@
 .independent-work h2,
 .teacher-option h2 {
     margin-bottom: 10px;
-    color: #8cd481;
+    color: #ce2db8;
 }
 
 .class-buttons,
@@ -104,41 +81,26 @@
 
 .class-buttons button,
 .grade-buttons button {
-    background-color: #c1e68e;
-    border: 1px solid #a8c080;
+    background-color: #0d3818;
+    border: 1px solid #0d3818;
     padding: 10px 20px;
     border-radius: 50%;
     font-size: 14px;
-    color: #87df7a;
-}
-
-.teacher-option input[type="text"] {
-    margin: 10px;
-    padding: 5px;
-    width: 120px;
+    color: #0d3818;
 }
 
 .teacher-option button {
-    background-color: #c5e5a6;
+    background-color: #92f332;
     border: none;
     padding: 8px 15px;
     margin-top: 5px;
 }
 
-.footer {
-    background-color: #d8e8d1;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    font-size: 12px;
-}
-
 a.button {
     padding: 1px 6px;
     border: 1px outset buttonborder;
-    color: #409632;
-    background-color: #e1e8d7;
+    color: #287028;
+    background-color: #ffffff;
     text-decoration: none;
     padding: 16px;
     border-radius: 50%;
