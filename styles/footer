@@ -6,16 +6,17 @@
     padding: 10px;
     font-size: 20px;
     color: rgb(36, 59, 30);
+
 }
 .footer_item  {
-    margin-top: 106px;
+    margin-top: 50px;
     padding-top: 30px;
     padding-bottom: 37px;
+    font-size: 30px;
 
-    background-color: #fbf9f4;
 }
 .footer_list {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 39px;   
 }
 
@@ -24,11 +25,12 @@
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    font-size: 20px;
 }
 
 .footer__title {
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .footer__link {
