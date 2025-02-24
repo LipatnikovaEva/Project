@@ -42,11 +42,12 @@
     display: flex;
     justify-content: center;
     gap: 15px;
+    
 }
 
 .class-buttons button,
 .grade-buttons button {
-    background-color: #0d3818;
+    background-color:#287028;
     border: 1px solid #0d3818;
     padding: 10px 20px;
     border-radius: 50%;
@@ -59,9 +60,11 @@
     border: none;
     padding: 8px 15px;
     margin-top: 5px;
+
+
 }
 
-a.button {
+a.button:hover {
     padding: 1px 6px;
     border: 1px outset buttonborder;
     color: #287028;
@@ -69,5 +72,13 @@ a.button {
     text-decoration: none;
     padding: 16px;
     border-radius: 50%;
+
+}
+
+.Picture {
+    margin-bottom: 10px;
+    width: 350px;
+    height: 350px;
+
 }
 
