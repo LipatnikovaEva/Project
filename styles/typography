@@ -17,8 +17,8 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
-    color: #000000;
-    border: 1px solid #000000;
+    color: #28723b;
+    border: 1px solid #1ad8a8;
     border-radius: 16px;
     background-color: transparent;
     cursor: pointer;
